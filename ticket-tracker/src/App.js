@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>Well, it loaded.</h1>
-      <Button buttonText = "+" buttonValue="Add"/>
+      <Button buttonText = {"+"} buttonValue="Add"/>
     </div>
   );
 }
