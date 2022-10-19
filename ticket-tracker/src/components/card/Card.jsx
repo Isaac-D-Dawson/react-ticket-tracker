@@ -17,16 +17,19 @@ const Card = (props) => {
 
     return(
         <div className="card">
-            <h1 className="card__header">
-                {cardName}({cardJob})
+            <h1 className="card__name">
+                {cardName}
             </h1>
+            <p className="card__title">
+                ({cardJob})
+            </p>
             <div
                 className="button-wrapper__add"
                 onClick={handleAdd}
             >
                 <Button buttonText = {"+"} buttonValue="add"/>
             </div>
-            <p className="card_value">{counter}</p>
+            <p className="card__value">{counter}</p>
             <div
                 className="button-wrapper__sub"
                 onClick={handleSub}

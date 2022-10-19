@@ -1,4 +1,27 @@
 .card {
     border:2.5px solid black;
     border-radius: 10px;
+
+    max-width: 30vw;
+
+    display: grid;
+    grid-template-areas:    "name   name    name"
+                            "title  title   title"
+                            "add    value   sub";
+
+    .card__name {
+        grid-area: name;
+    }
+    .card__title {
+        grid-area: title;
+    }
+    .button-wrapper__add {
+        grid-area: add;
+    }
+    .card__value {
+        grid-area: value;
+    }
+    .button-wrapper__sub {
+        grid-area: sub;
+    }
 }
