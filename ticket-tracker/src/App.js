@@ -8,7 +8,7 @@ import Team from "./data/team";
 
 function App() {
   // console.log(Team);
-  const teamCards = Team.map((member) => <Card key ={Team.indexOf(member)} displayValue={0} cardName={member["name"]} cardJob={member["role"]} /> );
+  const teamCards = Team.map((member) => <Card key ={member["id"]} displayValue={0} cardName={member["name"]} cardJob={member["role"]} /> );
   //I'd ideally prefer to have an index of "firstname.Lastname", but we'll work on that as we go.
   return teamCards;
 }
