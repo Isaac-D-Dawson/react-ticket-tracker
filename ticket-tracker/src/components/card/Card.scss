@@ -1,4 +1,10 @@
+@import '../../assets/sass/variables';
+
 .card {
+
+    background-color: $colour--background;
+
+
     border:2.5px solid black;
     border-radius: 10px;
 

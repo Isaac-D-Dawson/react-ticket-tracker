@@ -1,4 +1,13 @@
+@import '../../assets/sass/variables';
+
 button {
     border:2.5px solid black;
     border-radius: 5px;
+}
+
+.button--add {
+    background-color: $colour--primary;
+}
+.button--sub {
+    background-color: $colour--secondary;
 }
