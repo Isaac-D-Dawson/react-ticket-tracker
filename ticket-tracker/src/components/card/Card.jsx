@@ -22,16 +22,20 @@ const Card = (props) => {
             <h1 className="card__name">
                 {cardName}
             </h1>
-            <p className="card__title">
+            <h2 className="card__title">
                 ({cardJob})
-            </p>
+            </h2>
             <div
                 className="button-wrapper__add"
                 onClick={handleAdd}
             >
                 <Button buttonText = {"+"} buttonValue="add"/>
             </div>
-            <p className="card__value">{counter}</p>
+            <h3
+                className="card__value"
+            >
+                {counter}
+            </h3>
             <div
                 className="button-wrapper__sub"
                 onClick={handleSub}
