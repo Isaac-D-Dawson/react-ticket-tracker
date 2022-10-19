@@ -11,7 +11,7 @@ function App() {
   const teamCards = Team.map((member) => <Card key ={member["id"]} displayValue={0} cardName={member["name"]} cardJob={member["role"]} /> );
   //I'd ideally prefer to have an index of "firstname.Lastname", but we'll work on that as we go.
   return (
-    <main  className='main__wrapper'>
+    <main className='main__wrapper'>
       {teamCards}
     </main>
   );
