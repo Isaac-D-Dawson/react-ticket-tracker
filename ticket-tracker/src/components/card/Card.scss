@@ -2,9 +2,12 @@
     border:2.5px solid black;
     border-radius: 10px;
 
-    max-width: 30vw;
+    width: 30vw;
 
     display: grid;
+
+    justify-content: center;
+
     grid-template-areas:    "name   name    name"
                             "title  title   title"
                             "add    value   sub";
