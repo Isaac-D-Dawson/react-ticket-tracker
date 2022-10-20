@@ -16,10 +16,14 @@
     align-items: center;
     justify-items: center;
 
-    grid-template-areas:    "name   name    name"
-                            "title  title   title"
-                            "add    value   sub";
+    grid-template-areas:    "name       name        name    "
+                            "title      title       title   "
+                            "subtitle   subtitle    subtitle"
+                            "add        value       sub     ";
 
+    .card__subtitle {
+        grid-area: subtitle;
+    }
     .card__name {
         grid-area: name;
     }

@@ -25,6 +25,11 @@ const Card = (props) => {
             <h2 className="card__title">
                 ({cardJob})
             </h2>
+            <h3
+                className="card__subtitle"
+            >
+                Tickets Completed:
+            </h3>
             <div
                 className="button-wrapper__add"
                 onClick={handleAdd}
